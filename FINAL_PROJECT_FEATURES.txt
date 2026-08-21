@@ -1,0 +1,41 @@
+FINAL AI GOVERNANCE RISK REGISTER & REVIEW DASHBOARD
+
+This package is the final project version.
+
+CORE FEATURES
+1. Dashboard for viewing registered risks.
+2. Smart/rule-based routing from a user-entered query.
+3. Recommended primary department.
+4. Related department(s) and reason for involvement.
+5. Risk identification and risk register.
+6. Likelihood x Impact risk scoring.
+7. Risk severity/prioritization.
+8. Risk owner assignment.
+9. Risk lifecycle: Open -> In Progress -> Resolved.
+10. Resolution details: who resolved it and how.
+11. Resolution timeline:
+    - Created At
+    - Last Updated
+    - Resolved At
+    - Resolution Duration
+12. Audit/resolution history information.
+13. One-click START_DASHBOARD.bat launcher.
+
+ONE-TIME SETUP
+Open this folder in VS Code.
+Open Terminal.
+Create/activate venv and install requirements:
+    python -m venv venv
+    venv\Scripts\Activate.ps1
+    pip install -r requirements.txt
+
+DAILY USE AFTER SETUP
+Double-click:
+    START_DASHBOARD.bat
+
+The browser will open the local dashboard automatically while the Flask server runs.
+
+PROJECT CONCEPT
+The user types a service/risk query. The system analyzes the text using explainable routing rules,
+recommends the most relevant department, identifies related departments, records the risk,
+scores it, assigns ownership, and tracks its resolution through time.

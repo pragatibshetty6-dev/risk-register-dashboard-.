@@ -1,0 +1,20 @@
+RESOLUTION TIMELINE FEATURE
+
+Each risk should record:
+- Created At: when the risk was registered
+- Last Updated: when the record was last changed
+- Status: Open / In Progress / Resolved
+- Resolved At: exact date and time when status became Resolved
+- Resolved By: person/team that resolved it
+- Resolution Method: how it was resolved
+- Resolution Duration: time from Created At to Resolved At
+
+Example:
+Created At: 19-Aug-2026 10:30
+Last Updated: 20-Aug-2026 14:10
+Resolved At: 20-Aug-2026 14:10
+Resolved By: Cybersecurity Team
+Resolution Method: Access controls were strengthened and the security assessment was completed.
+Resolution Duration: 1 day 3 hours 40 minutes
+
+This creates a clear audit trail and lets the dashboard show when and how every risk was closed.
